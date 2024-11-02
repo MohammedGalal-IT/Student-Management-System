@@ -1,28 +1,11 @@
 package assisgnmnetv2;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.io.*;
-import static java.awt.Frame.NORMAL;
-import java.awt.Graphics;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import static java.awt.image.ImageObserver.ABORT;
-import static java.awt.image.ImageObserver.HEIGHT;
+import java.io.*;
 import java.util.ArrayList;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 public class StudentManagementSystem extends JFrame {
